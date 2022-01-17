@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Quiz2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner in = new Scanner(System.in);
+    
+    
+    int num;
+    int i;
+    System.out.print("Please enter a positive integer ");
+    num = in.nextInt();
+    
+    for (i=5; i<=5; i= i-1) {
+     
+      System.out.print(i);}
+    	 
+    	 
+    
+    
+    
+     
+    
+    
+    
+	}
+
+}
