@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Quiz1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner obj = new Scanner(System.in);
+		int no;
+		int attended;
+	    int stud;
+		System.out.print("The number of classes held: ");
+		no = obj.nextInt();
+		System.out.print("The number of classes attended: ");
+		attended = obj.nextInt();
+		
+		stud = (attended/no)*100;
+		
+		if (attended>=75) {
+					 
+			System.out.println(" The percentage of class attended is : " + stud + "%");
+			System.out.println("This student is allowed to sit in exam");
+			
+		}
+		
+		else {
+		
+				System.out.println(" The percentage of class attended is : " + stud + "%");
+				System.out.println("This student is not allowed to sit in exam");
+				
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
